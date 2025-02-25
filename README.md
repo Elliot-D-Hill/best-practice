@@ -1,20 +1,22 @@
 # Best practice for computational projects
 
-See [this project](https://github.com/Elliot-D-Hill/pytorch-template.git) for an example that attempts to follow the practices laid out in this document.
+See [this project](https://github.com/duke-aihealth-ds-fellowship/pytorch-template.git) for an example that attempts to follow the practices laid out in this document.
 
 ## Why do we adopt best practices, standards and conventions?
 
-Accelerates your research by reducing the number of issues you have to devote brainpower towards
+Stand on the shoulders of giants; there's no need to reinvent the wheel (most of the time).
 
-By establishing or using a common convention that everyone adheres to, you reduce mental
-overhead and communication errors in your team
+Accelerates your research by reducing the number of issues you have to devote brainpower towards.
 
-## When should you use conventions
+By establishing or using a common convention that everyone adheres to, you reduce mental overhead and communication errors in your team.
 
-- When a decision is not relevant to your research question
-- If there is no clear advantage between multiple options, default to convention
+### When should you use conventions
 
-On the flip side, conventions are good candidates for new research if you can improve upon them
+- When a decision is not relevant to your research question.
+- If there is no clear advantage between multiple options, default to convention.
+- A solution to a sub-problem already exists.
+
+On the flip side, baselines are good candidates for new research if you can improve upon them. But be warned, it is often difficult to improve upon baselines; they are the standard for a reason.
 
 ## Version control
 
@@ -26,8 +28,9 @@ Use a web-based version control tool like GitHub, GitLab, or BitBucket (these al
 
 ### Benefits
 
-- Git is freedom; you don't have to fear breaking your code (or your colleagues' code); You can always revert back to a working version.
-- You no longer have to write file names like: final_version36_last_one_i_promise_2.txt
+- Git is freedom; you don't have to fear breaking your code (or your colleagues' code); You can always revert back to a working version. This makes it easier to experiment and try new things.
+- You can easily share your code and collaborate with others.
+- You no longer have to write file names like: final_version36_last_one_i_promise_2.txt.
 
 ### Tips
 
